@@ -1,0 +1,54 @@
+body {
+    background-color: #2B2A29;
+    background-repeat: repeat;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+@media screen and (min-width: 500px) {
+    body{
+        background-image: url(images/backdrop.svg);
+    } 
+}
+
+.row {
+    max-width: 500px;
+    margin: auto;
+    background-color: #2B2A29;
+}
+
+.button {
+    margin-top: -50px;
+    margin-left: auto;
+}
+
+.logo {
+    max-width: 400px;
+    margin:auto;
+    padding-bottom: 59px;
+    padding-top: 26px;
+}
+
+.about {
+    padding-top: 41px;
+    padding-bottom: 100px;
+      
+}
+h1 {
+    font-size: 1.2em;
+    font-weight: 1000;
+    color: #BC760F;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: #BC760F;
+}
+
+p {
+    color: white;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
